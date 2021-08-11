@@ -1,0 +1,56 @@
+h1{
+  text-align: center;
+}
+
+button{
+  font-size: 18;
+  background-color: darkslateblue;
+  padding: 8px 16px;
+  border: none;
+  color: white;
+}
+.complete{
+  font-size: 18;
+  background-color:green;
+  padding: 8px 16px;
+  border: none;
+  color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+   
+}
+
+input{
+  font-size: 20px;
+  padding: 4px 8px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.todo{
+  width: 500px;
+  margin: 60px auto;
+  
+}
+
+.list-style{
+font-display: flex;
+flex-direction: column;   
+}
+
+.button-style{
+  display:flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.todo-style{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  width: auto;
+  flex-grow: 1;
+}
